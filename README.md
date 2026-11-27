@@ -36,13 +36,13 @@ Instalar la libreria a traves Package Manager Console [nuget.org](https://www.nu
 Install-Package SW-Tools
 ```
 
-En caso de no utilizar Package Manager Console puedes descargar la libreria directamente a traves del siguiente [link](https://github.com/lunasoft/sw-tools-dotnet/releases) y agregarla como referencia local a tu proyecto. Asegurate de utilizar la ultima version publicada.
+En caso de no utilizar Package Manager Console puedes descargar la libreria directamente a traves del siguiente [link](https://github.com/swsapiendev/sw-tools-dotnet/releases) y agregarla como referencia local a tu proyecto. Asegurate de utilizar la ultima version publicada.
 
 # Implementación #
 
 ## Generar xml CFDI 3.3 ##
 
-Puedes generar un xml en su versión 3.3 de tipo ingreso/egreso así como tambien realizar el sellado para ser timbrado. Puedes consultar más ejemplos en [UT Tools](https://github.com/lunasoft/sw-tools-dotnet/blob/master/SW.ToolsUT/UT_Tools_BuildInvoiceCFDI33.cs)
+Puedes generar un xml en su versión 3.3 de tipo ingreso/egreso así como tambien realizar el sellado para ser timbrado. Puedes consultar más ejemplos en [UT Tools](https://github.com/swsapiendev/sw-tools-dotnet/blob/master/SW.ToolsUT/UT_Tools_BuildInvoiceCFDI33.cs)
 
 ```cs
 using SW.Tools.Services.Sign;
@@ -86,7 +86,7 @@ namespace ExampleSDK
 
 ## Generar xml CFDI 4.0 ##
 
-Puedes generar un xml en su versión 4.0 de tipo ingreso/egreso así como tambien realizar el sellado para ser timbrado. Puedes consultar más ejemplos en [UT Tools](https://github.com/lunasoft/sw-tools-dotnet/blob/master/SW.ToolsUT/UT_Tools_BuildInvoiceCFDI40.cs)
+Puedes generar un xml en su versión 4.0 de tipo ingreso/egreso así como tambien realizar el sellado para ser timbrado. Puedes consultar más ejemplos en [UT Tools](https://github.com/swsapiendev/sw-tools-dotnet/blob/master/SW.ToolsUT/UT_Tools_BuildInvoiceCFDI40.cs)
 
 ```cs
 using SW.Tools.Services.Sign;
@@ -128,7 +128,7 @@ namespace ExampleSDK
 
 ## Generar xml con complemento de pagos 2.0 ##
 
-Puedes generar un xml en su versión 4.0 con su complementeo de pagos 2.0, así como tambien realizar el sellado para ser timbrado. Puedes consultar más ejemplos en [UT Tools](https://github.com/lunasoft/sw-tools-dotnet/blob/master/SW.ToolsUT/UT_Tools_BuildInvoicePagos20.cs)
+Puedes generar un xml en su versión 4.0 con su complementeo de pagos 2.0, así como tambien realizar el sellado para ser timbrado. Puedes consultar más ejemplos en [UT Tools](https://github.com/swsapiendev/sw-tools-dotnet/blob/master/SW.ToolsUT/UT_Tools_BuildInvoicePagos20.cs)
 
 ```cs
 using SW.Tools.Services.Sign;
